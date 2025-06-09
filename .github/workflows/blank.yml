@@ -23,7 +23,8 @@ jobs:
           
       - name: Display dotnet version
         run: dotnet --version
-
+      - name: navigate folder
+        run: cd WebApplication1
       - name: dotnet restore
         run: dotnet restore
       
